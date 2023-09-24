@@ -4,10 +4,7 @@
  */
 package interface_polimorfismo.empregado;
 
-/**
- *
- * @author igl_m
- */
+
 public abstract class ModeloEmpregado {
     private String nome;
     private String telefone;
@@ -19,5 +16,5 @@ public ModeloEmpregado(String nome, String telefone) {
 public abstract double calcularSalario();
     public String toString(){
     return String.format("%-20s%-20s%.2f", nome, telefone, calcularSalario());}
-
+    
 }

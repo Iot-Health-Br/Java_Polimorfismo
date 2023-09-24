@@ -5,8 +5,8 @@
 package interface_polimorfismo.Locadora;
 
     public interface VideoCassete {
-        void rebobinarFita();
         void play();
+        void rebobinarFita();
         void stop();
         String getNome();
 }

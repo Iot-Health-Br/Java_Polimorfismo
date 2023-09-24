@@ -15,7 +15,7 @@ public class SalaDeEstar {
         for(VideoCassete vc : videos){
             System.out.printf("\n\n%s:\n", vc.getNome());
             vc.play();
-            vc.stop();
-            vc.rebobinarFita();}
+            vc.rebobinarFita();
+            vc.stop();}
     }
 }

@@ -4,10 +4,6 @@
  */
 package interface_polimorfismo.empregado;
 
-/**
- *
- * @author igl_m
- */
 public class EmpregadoComissionado extends ModeloEmpregado{
     private double vendasBrutas;
     private double comissao;
@@ -20,5 +16,5 @@ public EmpregadoComissionado(String nome, String telefone, double
 
 public double calcularSalario() {
     return vendasBrutas * comissao;}
-//getters e setters omitidos
+
 }

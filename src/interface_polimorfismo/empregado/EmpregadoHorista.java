@@ -17,5 +17,5 @@ public EmpregadoHorista(String nome, String telefone, int qtdHorasTrab,
 
 public double calcularSalario() {
     return qtdHorasTrab * valorHora;}
-//getters e setters omitidos
+
 }
