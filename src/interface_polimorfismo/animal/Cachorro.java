@@ -1,11 +1,11 @@
-package interface_polimorfismo;
+package interface_polimorfismo.animal;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-import interface_polimorfismo.Animal;
+import interface_polimorfismo.animal.Animal;
 
 /*
   Ambas as classes, Dog e Cat, implementam a interface Animal. 

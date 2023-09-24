@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package interface_polimorfismo;
+package interface_polimorfismo.animal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import interface_polimorfismo.Animal;
-import interface_polimorfismo.Cachorro;
-import interface_polimorfismo.Gato;
-import interface_polimorfismo.Comparador_Animal;
+import interface_polimorfismo.animal.Animal;
+import interface_polimorfismo.animal.Cachorro;
+import interface_polimorfismo.animal.Gato;
+import interface_polimorfismo.animal.Comparador_Animal;
 
 public class LocalizarAnimais {
 

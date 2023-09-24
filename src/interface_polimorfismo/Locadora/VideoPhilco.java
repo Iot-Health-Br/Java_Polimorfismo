@@ -4,17 +4,16 @@
  */
 package interface_polimorfismo.Locadora;
 
-
-public class VideoSempToshiba implements VideoCassete{
+public class VideoPhilco implements VideoCassete{
     public void play() {
-        System.out.println("Semp Toshiba rodando a fita");}
+        System.out.println("Philco rodando a fita");}
     
     public void rebobinarFita() {
-        System.out.println("Semp Toshiba rebobinando a fita");}
+        System.out.println("Philco rebobinando a fita");}
     
     public void stop() {
-        System.out.println("Semp Toshiba parando a fita");}
+        System.out.println("Philco parando a fita");}
     
     public String getNome() {
-        return "Video Cassete Semp Toshiba";}
+        return "Video Cassete Philco";}
 }

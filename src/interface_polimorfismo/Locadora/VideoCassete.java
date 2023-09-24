@@ -1,13 +1,12 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
 package interface_polimorfismo.Locadora;
 
-/**
- *
- * @author igl_m
- */
-public class VideoCassete {
-    
+    public interface VideoCassete {
+        void rebobinarFita();
+        void play();
+        void stop();
+        String getNome();
 }
