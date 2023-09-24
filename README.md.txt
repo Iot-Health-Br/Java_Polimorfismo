@@ -15,3 +15,5 @@ Polimorfismo: Dog e Cat são tratados como objetos do tipo Animal, permitindo a 
 Ordenação de Lista: A lista de animais é ordenada com base nos nomes usando a classe AnimalComparator e o método sort da classe Collections.
 
 -----------------------------------------------------------------------------------------
+
+Código refatorado e implementado cometarios de funcionamento
